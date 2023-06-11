@@ -1,24 +1,66 @@
 html, body{
-    height: 100%;
-    background-color: rgb(142, 142, 250);
+    min-height: 100%;
+    background-color: rgb(233, 233, 248);
     margin: 0;
 }
 
-header h1{
-    margin-top: -4%;
-}
-
 header{
-    background-color: blue;
+    background-color: rgb(18, 7, 232);
     margin: 0%;
     text-align: center;
     padding-top: 1%;
     font-family: 'Courier New', Courier, monospace;
+}
+
+#botaocadastro{
+    border: 1px solid black;
+    border-radius: 10%;
+    text-align: center;
+    margin-left: 35%;
+}
+
+#logar{
+    margin-left: 75%;
+    margin-bottom: 0%;
     color: white;
 }
 
-ul{
+#entre{
     background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 20%;
+    height: 25%;
+}
+#cadastrar{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 30%;
+    height: 25%;
+}
+
+#botaologin{
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 20%;
+    height: 25%;
+}
+
+#novo{
+    margin-bottom: 0%;
+    margin-right: 50%;
+}
+
+#tem{
+    margin-bottom: 1%;
+}
+
+
+ul{
+    background-color: rgb(14, 14, 13);
     padding: 1%;
 }
 
@@ -26,28 +68,76 @@ ul{
    width: 100%;
    height: 100%;
    font-size: 120%;
-   padding: 5%;
-   color: white;
+   padding: 7%;
+   padding-bottom: 0%;
+   padding-top: 0%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: rgb(254, 254, 254);
    display: inline;
    text-decoration: none;
 }
 
-
 #user{
-    margin: 0%;
-    width: 4%;
+    margin-right: 85%;
+    width: 3%;
     border: 1px solid black;
     border-radius: 55%;
     margin-right: 90%;
+    margin-bottom: 10%;
+}
+
+h2{
+    font-size: 200%;
+    text-align: center;
+}
+
+
+#cadastro{
+border: 1px solid black;
+border-radius: 5%;
+background-color: white;
+margin-left: 35%;
+margin-right: 35%;
+padding-top: 2%;
+border-right: 100%;
+padding-left: 2%;
+padding-bottom: 3%;
+}
+
+#logo{
+    width: 20%;
+}
+
+#login{
+    border: 1px solid black;
+    border-radius: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+    background-color: white;
+    text-align: center;
+    padding-top: 2%;
+    border-right: 100%;
+    padding-left: 2%;
+    padding-bottom: 3%;
+}
+
+#name{
+    margin-top: -10%;
+    margin-bottom: -5%;
+    margin-right: 90%;
+    color: white;
+    text-decoration: none;
+    font-size: 80%;
 }
 
 .menu:hover{
-  transform: scale(0.5);
-  color: yellow;
+  color: rgb(246, 250, 8);
 }
 
 #este{
-    color: yellow;
+    color: rgb(246, 250, 8);
 }
+
 
 
